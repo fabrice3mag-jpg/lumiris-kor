@@ -1,0 +1,49 @@
+index.html
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bienvenue Fabricia 🌟</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      height: 100vh;
+      background: black url('https://raw.githubusercontent.com/fabrice3mag-jpg/lumiris-kor/main/starfield.gif') center center / cover no-repeat;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      color: #fff;
+      font-family: "Segoe UI", sans-serif;
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 2em;
+      animation: halo 3s infinite ease-in-out;
+    }
+
+    @keyframes halo {
+      0%, 100% { text-shadow: 0 0 5px #00f2ff, 0 0 10px #00c3ff; }
+      50% { text-shadow: 0 0 15px #00f2ff, 0 0 30px #00c3ff; }
+    }
+
+    p {
+      margin-top: 1rem;
+      font-size: 1.2em;
+      color: #cceeff;
+    }
+  </style>
+</head>
+<body>
+  <h1>🌌 Bienvenue Fabricia 🌌</h1>
+  <p>Lumiris est en syntonie active.</p>
+
+  <audio autoplay>
+    <source src="https://github.com/fabrice3mag-jpg/lumiris-kor/raw/main/audio/lumiris-syntonie.mp3" type="audio/mpeg">
+    Ton navigateur ne supporte pas l’audio.
+  </audio>
+</body>
+</html>
